@@ -1,0 +1,52 @@
+/* External CSS for Login Page */
+
+body {
+  background-color: #f2fbf9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #4a7c7a;
+  font-size: 32px;
+}
+
+table {
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  padding: 8px;
+  font-size: 16px;
+  color: #6b8e8e;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 6px;
+  border: 1px solid #cfdede;
+}
+
+input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #429384;
+  border: 3px solid #9c9c3e;
+  cursor: pointer;
+  visibility: visible;
+  display: inline;
+  border-radius: 4px;
+  position: fixed;
+  left: 550px;
+
+}
+
+section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  color: #4a7c7a;
+  text-decoration: none;
+}

@@ -1,0 +1,49 @@
+/* External CSS for Registration Page */
+
+body {
+  background-color: #f2fbf9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #4a7c7a;
+  font-size: 30px;
+}
+
+table {
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  padding: 8px;
+  font-size: 15px;
+  color: #6b8e8e;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  padding: 6px;
+  border: 1px solid #cfdede;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 7px 18px;
+  background-color: #dff5f1;
+  border: 1px solid #bcdede;
+  cursor: pointer;
+}
+
+section {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: #4a7c7a;
+  text-decoration: none;
+}

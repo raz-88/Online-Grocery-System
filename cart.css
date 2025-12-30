@@ -1,0 +1,47 @@
+/* ===== Page Background Image ===== */
+body {
+  background-image: url("Slide3.jpg");   /* PAGE background */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+}
+
+/* ===== Element Background Image ===== */
+table {
+  margin: auto;
+  margin-top: 25px;
+  width: 40%;
+  border-collapse: collapse;
+
+  background-image: url("Logo1.png");   /* ELEMENT background */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px 120px;
+}
+
+th {
+  background-color: rgba(255,255,255,0.85);
+  color: #4a7c7a;
+  padding: 10px;
+}
+
+td {
+  background-color: rgba(255,255,255,0.9);
+  padding: 10px;
+  text-align: center;
+  color: #6b8e8e;
+}
+
+table, th, td {
+  border: 1px solid #cfdede;
+}

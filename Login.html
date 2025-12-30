@@ -1,26 +1,42 @@
 <!DOCTYPE html>
+<html>
 <head>
+  <title>Login Page</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
-    <h1 align = "center"> Login Page </h1>
-    <table align = "center">
-        <form action="Success.html"></form>
-        <tr>
-            <td> Username: </td>
-            <td> <input type="text"/></td>
-        </tr>
-        <tr>
-            <td> Password: </td>
-            <td> <input type ="password"/></td>
-        </tr>
 
+  <h1>Login Page</h1>
 
-        <tr> 
-            <td> <input type = "submit" ></td>
-        </tr>
+  <form action="Success.html">
+    <table>
+      <tr>
+        <td>Username:</td>
+        <td><input type="text"></td>
+      </tr>
+
+      <tr>
+        <td>Password:</td>
+        <td><input type="password"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <input type="submit" value="Login">
+        </td>
+      </tr>
     </table>
+  </form>
 
-    <section align = "center">
-        <p> Don't Have a acoount?<a href = "Registration.html" > Register Here</a></p>
-    </section>
+  <section>
+    <p>
+      Don't have an account?
+      <a href="Registration.html">Register Here</a>
+    </p>
+  </section>
+
 </body>
+</html>
